@@ -12,21 +12,33 @@ Caso não tenha nenhuma em mente, usar a seguinte API:
 http://dadosabertos.almg.gov.br/ws/prestacao_contas/contratos/pesquisa
 
 Os parâmetros desta pesquisa são:
+
 NOME - DESCRIÇÃO - TIPO
+
 ?cod= - Código do contrato. - Integer
+
 ?ano= - Ano do contrato. - Integer
+
 ?tipo= - Tipo de contrato: - String
 ● ‘Contrato’
 ● ‘Convênio’
+
 ?forn= - Nome do fornecedor. - String
+
 ?dota= - Dotação orçamentária. - String
+
 ?numLic= - Número do processo licitatório. - Integer
+
 ?anoLic= - Ano do processo licitatório - Integer
+
 ?modal= - Modalidade do contrato. - String
+
 ?numModalC
 to = - Número da modalidade de contrato - Integer
+
 ?anoModalC
 to = - Ano da modalidade de contrato - Integer
+
 
 O formulário da página de pesquisa deve conter todos os campos de pesquisa
 possíveis.
@@ -38,7 +50,9 @@ http://dadosabertos.almg.gov.br/ws/prestacao_contas/contratos/pesquisa?ano=2017
 Observações
 
 ● Utilizar alguma tecnologia frontend. Utilizar Angular ou React é um diferencial.
+
 ● Outras API’s disponíveis podem ser invocadas para enriquecer a aplicação.
+
 Por exemplo, a API de fornecedores pode ser utilizada para auxiliar no
 preenchimento do parâmetro “forn”.
 
