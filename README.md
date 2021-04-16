@@ -74,4 +74,5 @@ foundation,bulma, etc;
 
 ● Performance e compatibilidade: paginação e responsividade.
 
-Entrega Versionar o código no GitHub e nos enviar por e-mail com o assunto: [TESTE FRONTEND] - <Seu nome aqui>.
+Entrega Versionar o código no GitHub e nos
+enviar por e-mail com o assunto: [TESTE FRONTEND] - <Seu nome aqui>.
